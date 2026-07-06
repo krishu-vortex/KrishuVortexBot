@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: krishu-vortex-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8743843136:AAGrw8bM5XAqCBiteT183068y-5hB9502cI
+      - key: ADMIN_ID
+        value: 5910476580
